@@ -32,7 +32,7 @@
 .task_width {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-wrapper {
   display: flex;
@@ -117,7 +117,7 @@ input,button{
   width: 226px;
 }
 .task__input {
-  width: 226px
+  width: 226px;
 }
 .button__img {
   height: 2em;
@@ -130,18 +130,18 @@ input,button{
 
 /* Completed */
 .completed_label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task__input {
-  display: none
+  display: none;
 }
 
 .edit_text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit_label {
