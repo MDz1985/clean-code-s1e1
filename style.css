@@ -18,8 +18,11 @@
 }
 
 @media (max-width:768px) {
-.image-container { text-align: center;
-}
+
+  .image-container {
+    text-align: center;
+  }
+
 }
 .todo-container {
   display: block;
