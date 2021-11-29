@@ -13,15 +13,15 @@
       </a>
     </header>
     <main class="todo-container">
-      <h3 id="new-task-title" class="todo-container__paragraph">
-        <label for="new-task" class="label">Add Item</label>
-      </h3>
-      <div class="task-wrapper">
-        <input id="new-task" class="task-wrapper__input task_width text_input" type="text">
-        <button class="task-wrapper__button">Add</button>
+      <h3 class="todo-container__title new-task_title">Add Item</h3>
+      <div class="todo-container__new-task">
+        <label class="text-field task_width">
+          <input type="text" class="text-field__input task_width text_input">
+        </label>
+        <button class="button">Add</button>
       </div>
       <h3 class="todo-container__title">Todo</h3>
-      <ul id="incomplete-tasks" class="todo-container__ul">
+      <ul class="todo-container__ul incomplete_tasks">
         <li class="task">
           <input type="checkbox" class="task__checkbox">
           <label class="task__label task_width">Pay Bills</label>
